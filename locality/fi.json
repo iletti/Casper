@@ -31,7 +31,7 @@
     "Login": "Kirjaudu sisään",
     "Account": "Käyttäjätili",
     "Powered by Ghost": "Toteutus: Ilari Schmidt",
-    "Go to the front page": "Siirry etusivulle",
+    "Go to the front page →": "Siirry etusivulle →",
     "Theme errors": "Teeman virheet",
     "Message": "Viesti",
     "Featured": "Suositellut",
@@ -40,9 +40,5 @@
     "A collection of": "Kokoelma",
     "Members only": "Vain jäsenille",
     "Paid-members only": "Vain maksaville jäsenille"
-
-
-
-
 
 }
