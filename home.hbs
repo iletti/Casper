@@ -6,8 +6,13 @@
         <div>
             <h1>Täällä opit digimarkkinointia!</h1>
 
-            <p>Onko sinulla tarve saada asioita aikaan digissä, mutta </p> <li> et oikein tiedä mistä aloittaa</li> <li> sinulla ei ole aikaa kouluttautua</li> <li> ja markkinointipalveluiden kallis ulkoistaminen ei ole vaihtoehto?</li>
-            <p>Voit huokaista helpotuksesta. Tie on vihdoin kuljettanut sinut oikean tiedon äärelle. Täällä opitaan ja saadaan asioita aikaiseksi. Lisää tietoa löytyy alla olevista painikkeista. Käyhän peremmälle!</p>
+            <p>Onko sinulla tarve saada asioita aikaan digissä, mutta </p> 
+            <ul> 
+                <li> et oikein tiedä mistä aloittaa</li> 
+                <li> sinulla ei ole aikaa kouluttautua</li> 
+                <li> ja kalliiden markkinointipalveluiden ostaminen ei ole vaihtoehto?</li>
+            </ul>
+            <p>Nyt voit huokaista helpotuksesta: Olet vihdoin läytänyt oikean tiedon äärelle. Täällä pääset itse tekemään ja oppimaan tärkeimmät digimarkkinoinnin toimet helppojen ohjeiden avulla. Tutustu lisää alla olevista painikkeista. Nähdään oppitunneilla!</p>
              </div>
         <div class="p-hero-buttons">
             {{! Launches the Ghost membership portal }}
@@ -95,7 +100,7 @@
                     {{#foreach posts}}
                         <article class="p-post-card">
                             {{! Use the img_url helper to bring in the post's feature image. }}
-                            <img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
+                            <img href="{{url}}" src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
                             <h3><a href="{{url}}">{{title}}</a></h3>
                         </article>
                     {{/foreach}}

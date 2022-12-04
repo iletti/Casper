@@ -46,7 +46,8 @@
 }
 
 .p-hero p {
-  font-size: 2rem;
+  margin: 10px;
+    font-size: 2rem;
   line-height: 1.5;
 }
 
