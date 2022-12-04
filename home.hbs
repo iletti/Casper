@@ -100,7 +100,7 @@
                     {{#foreach posts}}
                         <article class="p-post-card">
                             {{! Use the img_url helper to bring in the post's feature image. }}
-                            <img href="{{url}}" src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
+                            <a href="{{url}}"><img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" /></a>
                             <h3><a href="{{url}}">{{title}}</a></h3>
                         </article>
                     {{/foreach}}
