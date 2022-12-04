@@ -12,7 +12,7 @@
                 <li> sinulla ei ole aikaa kouluttautua</li> 
                 <li> ja kalliiden markkinointipalveluiden ostaminen ei ole vaihtoehto?</li>
             </ul>
-            <p>Nyt voit huokaista helpotuksesta: Olet vihdoin läytänyt oikean tiedon äärelle. Täällä pääset itse tekemään ja oppimaan tärkeimmät digimarkkinoinnin toimet helppojen ohjeiden avulla. Tutustu lisää alla olevista painikkeista. Nähdään oppitunneilla!</p>
+            <p>Nyt voit huokaista helpotuksesta: Olet vihdoin löytänyt oikean tiedon äärelle. Täällä pääset itse tekemään ja oppimaan tärkeimmät digimarkkinoinnin toimet helppojen ohjeiden avulla. Tutustu lisää alla olevista painikkeista. Nähdään oppitunneilla!</p>
              </div>
         <div class="p-hero-buttons">
             {{! Launches the Ghost membership portal }}
@@ -39,7 +39,7 @@
                     {{#foreach posts}}
                         <article class="p-post-card">
                             {{! Use the img_url helper to bring in the post's feature image. }}
-                            <img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
+                            <a href="{{url}}"><img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" /></a>
                             <h3><a href="{{url}}">{{title}}</a></h3>
                         </article>
                     {{/foreach}}
@@ -59,7 +59,7 @@
                     {{#foreach posts}}
                         <article class="p-post-card">
                             {{! Use the img_url helper to bring in the post's feature image. }}
-                            <img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
+                             <a href="{{url}}"><img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" /></a>
                             <h3><a href="{{url}}">{{title}}</a></h3>
                         </article>
                     {{/foreach}}
@@ -80,7 +80,7 @@
                     {{#foreach posts}}
                         <article class="p-post-card">
                             {{! Use the img_url helper to bring in the post's feature image. }}
-                            <img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
+                          <a href="{{url}}"><img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" /></a>
                             <h3><a href="{{url}}">{{title}}</a></h3>
                         </article>
                     {{/foreach}}
