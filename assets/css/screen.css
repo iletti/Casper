@@ -28,6 +28,7 @@ production stylesheet in assets/built/screen.css
 
 /* Import CSS reset and base styles */
 @import "global.css";
+@import "home.css";
 
 :root {
 
@@ -2412,3 +2413,4 @@ file to add some of your own styles. Well, you've come to
 the right place. Onward!
 
  */
+
