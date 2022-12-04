@@ -407,7 +407,7 @@ blockquote cite a {
 }
 
 a {
-    color: #15171A;
+    color: #ffffff; /*muutin valkoiseksi, koska etusivulla oli dark themen kaa tumma*/
     text-decoration: none;
 }
 
