@@ -42,16 +42,16 @@
 }
 
 .p-hero h1 {
-  text-transform: uppercase;
+  
 }
 
 .p-hero p {
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
 .p-hero p + p {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .p-hero-left a {
@@ -79,7 +79,7 @@
 }
 
 .p-hero-buttons a {
-  color: var(--ghost-accent-color);
+  color: #fff;
   background-color: transparent;
   border: 3px solid;
   transition: all 0.2s;
