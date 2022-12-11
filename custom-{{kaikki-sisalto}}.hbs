@@ -2,17 +2,39 @@
 <main id="main">
 <section class="p-outer">
     <div class="p-inner p-hero">
-        <h1>Kaikki sisältö</h1>
+        <div class="p-hero-left">
+        <div>
+            <h1>Täällä opit digimarkkinointia!</h1>
+
+            <p>Onko sinulla tarve saada asioita aikaan digissä, mutta </p> 
+            <ul> 
+                <li> et oikein tiedä mistä aloittaa</li> 
+                <li> sinulla ei ole aikaa kouluttautua</li> 
+                <li> ja kalliiden markkinointipalveluiden ostaminen ei ole vaihtoehto?</li>
+            </ul>
+            <p>Nyt voit huokaista helpotuksesta: Olet vihdoin löytänyt oikean tiedon äärelle. Täällä pääset itse tekemään ja oppimaan tärkeimmät digimarkkinoinnin toimet helppojen ohjeiden avulla. Tutustu lisää alla olevista painikkeista. Nähdään oppitunneilla!</p>
+             </div>
+        <div class="p-hero-buttons">
+            {{! Launches the Ghost membership portal }}
+            <button data-portal="signup">Liity jäseneksi!</button>
+            {{! Link to an about page }}
+            <a href="/tietoa/">Lisätietoa &rarr;</a>
+        </div>
+        </div>
+        <div class="p-hero-right">
+          {{! Loads the your cover image as defined in Ghost admin }}
+          <img src="{{img_url @site.cover_image size="l"}}" alt="Helppoa digimarkkinointia yrittäjille" />
+        </div>
     </div>
 </section>
 
 {{! First section}}
     <section class="p-outer">
         <div class="p-inner">
-            <h2>Perusteet</h2>
+            <h2>Digitaalisen markkinoinnin perusteet</h2>
             <div class="p-posts-grid">
                 {{! Use the get helper to fetch posts }}
-                {{#get "posts" filter="primary_tag:digitaalisen-markkinoinnin-perusteet" limit="0" }}
+                {{#get "posts" filter="primary_tag:digitaalisen-markkinoinnin-perusteet" limit="6" }}
                     {{! Use the foreach helper to loop through available posts }}
                     {{#foreach posts}}
                         <article class="p-post-card">
@@ -32,7 +54,7 @@
             <h2>Hakukonenäkyvyys</h2>
             <div class="p-posts-grid">
                 {{! Use the get helper to fetch posts }}
-                {{#get "posts" filter="primary_tag:hakukonenäkyvyys" limit="0" }}
+                {{#get "posts" filter="primary_tag:hakukonenäkyvyys" limit="6" }}
                     {{! Use the foreach helper to loop through available posts }}
                     {{#foreach posts}}
                         <article class="p-post-card">
@@ -53,7 +75,7 @@
             <h2>Digimainonta</h2>
             <div class="p-posts-grid">
                 {{! Use the get helper to fetch posts }}
-                {{#get "posts" filter="primary_tag:digimainonta" limit="0" }}
+                {{#get "posts" filter="primary_tag:digimainonta" limit="6" }}
                     {{! Use the foreach helper to loop through available posts }}
                     {{#foreach posts}}
                         <article class="p-post-card">
@@ -73,7 +95,7 @@
             <h2>Analytiikka ja seuranta</h2>
             <div class="p-posts-grid">
                 {{! Use the get helper to fetch posts }}
-                {{#get "posts" filter="primary_tag:analytiikka-ja-seuranta" limit="0" }}
+                {{#get "posts" filter="primary_tag:analytiikka-ja-seuranta" limit="6" }}
                     {{! Use the foreach helper to loop through available posts }}
                     {{#foreach posts}}
                         <article class="p-post-card">
@@ -87,5 +109,20 @@
         </div>
     </section>
 
+    <div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
 
 </main>
